@@ -1,0 +1,48 @@
+SAMPLE INPUT FILE:
+
+//header block
+WORKOUT_NAME = Salt Escapes 4/28/20
+WORKOUT_DESCRIPTION = Medium-High intensity, lots of squats and burpees
+WORKOUT_TAGS = Jumping; Burpees; Squats;
+
+//input format: 
+//description; exercise time; rest time; other notes;
+
+[block=4; 20] //repeat block 4 times, rest for 20 seconds after block
+10 high knees, 2 sprawls; 20; 10;
+walking lunge; 20; 10; regular lunge if no space;
+[/block]
+
+[block=2; 20]
+broad jump, sprawl; 30; 10;
+bear crawl; 30; 10;
+3 squat pulses then jump; 30; 10;
+side burpee; 30; 10;
+[/block]
+
+[block=4; 20]
+loaded beast, knee to elbow; 20; 10;
+squat jumps; 20; 10; include arm swings for momentum
+[/block]
+
+[block=2; 20]
+broad jump, sprawl; 30; 10;
+bear crawl; 30; 10;
+3 squat pulses then jump; 30; 10;
+side burpee; 30; 10;
+[/block]
+
+[block=4; 30]
+single-leg jackknife; 20; 10; on your back;
+plank jacks; 20; 10; low plank;
+[/block]
+
+//FINISHER
+[block=3; 0]
+high knees; 30; 0;
+squat jumps; 30; 0;
+loaded beast; 30; 0;
+shoot-throughs; 30; 0;
+[/block]
+
+burpees; 120; 0;
