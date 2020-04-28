@@ -1,13 +1,30 @@
-SAMPLE INPUT FILE:
+// SAMPLE INPUT FILE:
+// First iteration of input file for app!
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Global settings: 
+//   items in a line are separated by semicolons
+//   double slash (//) indicates comment
+//
+// Header block: 
+//   Here you can name the workout, give it a description, and add tags that can be filtered on. 
+//   For example, if I hurt my knee and wanted to avoid a squat-heavy workout, I could filter out workouts with that tag.
+//
+// Workout block: 
+//   Settings: 
+//     new line indicates new exercise
+//     encase exercises in [block=x; rest time][/block] to repeat as a group x times and rest for the specified amount after the block
+//     exercise lines have 4 parameters: description; exercise time; rest time; other notes;
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //header block
 WORKOUT_NAME = Salt Escapes 4/28/20
 WORKOUT_DESCRIPTION = Medium-High intensity, lots of squats and burpees
 WORKOUT_TAGS = Jumping; Burpees; Squats;
 
-//input format: 
-//description; exercise time; rest time; other notes;
-
+//workout block
 [block=4; 20] //repeat block 4 times, rest for 20 seconds after block
 10 high knees, 2 sprawls; 20; 10;
 walking lunge; 20; 10; regular lunge if no space;
