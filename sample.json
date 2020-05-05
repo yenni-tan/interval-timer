@@ -7,7 +7,7 @@
             {
                 "name": "Circuit 1",
                 "sets": 4,
-                "restAfter": 20,
+                "rest": 20,
                 "exercises": [
                     {
                         "name": "10 high knees, 2 sprawls",
@@ -25,7 +25,7 @@
             {
                 "name": "Circuit 2",
                 "sets": 2,
-                "restAfter": 20,
+                "rest": 20,
                 "exercises": [
                     {
                         "name": "broad jump, sprawl",
@@ -52,7 +52,7 @@
             {
                 "name": "Circuit 3",
                 "sets": 4,
-                "restAfter": 30,
+                "rest": 30,
                 "exercises": [
                     {
                         "name": "loaded beast, knee to elbow",
@@ -70,7 +70,7 @@
             {
                 "name": "Circuit 4",
                 "sets": 2,
-                "restAfter": 20,
+                "rest": 20,
                 "exercises": [
                     {
                         "name": "broad jump, sprawl",
@@ -97,7 +97,7 @@
             {
                 "name": "Circuit 5",
                 "sets": 4,
-                "restAfter": 30,
+                "rest": 30,
                 "exercises": [
                     {
                         "name": "single-leg jackknife",
