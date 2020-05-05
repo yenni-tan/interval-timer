@@ -1,0 +1,145 @@
+{
+    "workout": {
+        "name": "Salt Escapes 4/28/20",
+        "description": "Medium-High intensity, lots of squats and burpees",
+        "tags": ["Jumping", "Burpees", "Squats"],
+        "blocks": [
+            {
+                "name": "Circuit 1",
+                "sets": 4,
+                "restAfter": 20,
+                "exercises": [
+                    {
+                        "name": "10 high knees, 2 sprawls",
+                        "active": 20,
+                        "rest": 10
+                    },
+                    {
+                        "name": "walking lunge",
+                        "active": 20,
+                        "rest": 10,
+                        "notes": "regular lunge, if no space"
+                    }
+                ]
+            },
+            {
+                "name": "Circuit 2",
+                "sets": 2,
+                "restAfter": 20,
+                "exercises": [
+                    {
+                        "name": "broad jump, sprawl",
+                        "active": 30,
+                        "rest": 10
+                    },
+                    {
+                        "name": "bear crawl",
+                        "active": 30,
+                        "rest": 10
+                    },
+                    {
+                        "name": "3 squat pulses then jump",
+                        "active": 30,
+                        "rest": 10
+                    },
+                    {
+                        "name": "side burpee",
+                        "active": 30,
+                        "rest": 10
+                    }
+                ]
+            },
+            {
+                "name": "Circuit 3",
+                "sets": 4,
+                "restAfter": 30,
+                "exercises": [
+                    {
+                        "name": "loaded beast, knee to elbow",
+                        "active": 20,
+                        "rest": 10
+                    },
+                    {
+                        "name": "squat jumps",
+                        "active": 20,
+                        "rest": 10,
+                        "notes": "include arm swings for momentum"
+                    }
+                ]
+            },
+            {
+                "name": "Circuit 4",
+                "sets": 2,
+                "restAfter": 20,
+                "exercises": [
+                    {
+                        "name": "broad jump, sprawl",
+                        "active": 30,
+                        "rest": 10
+                    },
+                    {
+                        "name": "bear crawl",
+                        "active": 30,
+                        "rest": 10
+                    },
+                    {
+                        "name": "3 squat pulses then jump",
+                        "active": 30,
+                        "rest": 10
+                    },
+                    {
+                        "name": "side burpee",
+                        "active": 30,
+                        "rest": 10
+                    }
+                ]
+            },
+            {
+                "name": "Circuit 5",
+                "sets": 4,
+                "restAfter": 30,
+                "exercises": [
+                    {
+                        "name": "single-leg jackknife",
+                        "active": 20,
+                        "rest": 10,
+                        "notes": "on your back"
+                    },
+                    {
+                        "name": "plank jacks",
+                        "active": 20,
+                        "rest": 10,
+                        "notes": "low plank"
+                    }
+                ]
+            },
+            {
+                "name": "Finisher",
+                "sets": 3,
+                "rest": 0,
+                "exercises": [
+                    {
+                        "name": "high knees",
+                        "active": 30,
+                        "rest": 0
+                    },
+                    {
+                        "name": "squat jumps",
+                        "active": 30,
+                        "rest": 0
+                    },
+                    {
+                        "name": "loaded beast",
+                        "active": 30,
+                        "rest": 0
+                    },
+                    {
+                        "name": "shoot-throughs",
+                        "active": 30,
+                        "rest": 0
+                    }
+                ]
+            }
+        ]
+    }
+}
