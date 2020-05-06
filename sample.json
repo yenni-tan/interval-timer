@@ -5,7 +5,7 @@
         "tags": ["Jumping", "Burpees", "Squats"],
         "blocks": [
             {
-                "name": "Circuit 1",
+                "type": "Tabata",
                 "sets": 4,
                 "rest": 20,
                 "exercises": [
@@ -23,7 +23,7 @@
                 ]
             },
             {
-                "name": "Circuit 2",
+                "type": "Circuit",
                 "sets": 2,
                 "rest": 20,
                 "exercises": [
@@ -50,7 +50,7 @@
                 ]
             },
             {
-                "name": "Circuit 3",
+                "type": "Tabata",
                 "sets": 4,
                 "rest": 30,
                 "exercises": [
@@ -68,7 +68,7 @@
                 ]
             },
             {
-                "name": "Circuit 4",
+                "type": "Circuit",
                 "sets": 2,
                 "rest": 20,
                 "exercises": [
@@ -95,7 +95,7 @@
                 ]
             },
             {
-                "name": "Circuit 5",
+                "type": "Tabata",
                 "sets": 4,
                 "rest": 30,
                 "exercises": [
@@ -114,7 +114,7 @@
                 ]
             },
             {
-                "name": "Finisher",
+                "type": "Finisher",
                 "sets": 3,
                 "rest": 0,
                 "exercises": [
