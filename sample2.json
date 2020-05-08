@@ -1,0 +1,137 @@
+{
+    "workout": {
+        "name": "Salt Escapes 4/10/20",
+        "description": "Strength and conditioning",
+        "tags": ["AMRAP", "EMOM", "Squats"],
+        "blocks": [
+            {
+                "type": "Circuit",
+                "sets": 1,
+                "rest": 60,
+                "notes": "3 triplets. 2 laps of triplet before moving on.",
+                "exercises": [
+                    {
+                        "type": "Circuit",
+                        "sets": 2,
+                        "rest": 15,
+                        "exercises": [
+                            {
+                                "name": "tricep dips",
+                                "active": 45,
+                                "rest": 15
+                            },
+                            {
+                                "name": "prone pull downs",
+                                "active": 45,
+                                "rest": 15,
+                                "notes": "superman position, pull towel into sternum twice, behind head twice"
+                            },
+                            {
+                                "name": "tempo push ups",
+                                "active": 45,
+                                "rest": 15,
+                                "notes": "low on way down, fast up"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Circuit",
+                        "sets": 2,
+                        "rest": 15,
+                        "exercises": [
+                            {
+                                "name": "hamstring walk-outs",
+                                "active": 45,
+                                "rest": 15,
+                                "notes": "walk feet out and back in from hip thruster position"
+                            },
+                            {
+                                "name": "one foot raised lunge",
+                                "active": 45,
+                                "rest": 15,
+                                "notes": "put one foot behind you up on chair/couch. all on one leg for first lap, then switch for next lap"
+                            },
+                            {
+                                "name": "ice skaters",
+                                "active": 45,
+                                "rest": 15
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Circuit",
+                        "sets": 2,
+                        "rest": 15,
+                        "exercises": [
+                            {
+                                "name": "tempo squat",
+                                "active": 45,
+                                "rest": 15,
+                                "notes": "slow on way down, fast up"
+                            },
+                            {
+                                "name": "low squat hold with reverse lunge",
+                                "active": 45,
+                                "rest": 15
+                            },
+                            {
+                                "name": "duck walk",
+                                "active": 45,
+                                "rest": 15,
+                                "notes": "(feet flat on ground, walk around in low squat"
+                            }
+                        ]
+                    }
+                ]
+            },
+
+            {
+                "type": "AMRAP",
+                "sets": 1,
+                "rest": 60,
+                "notes": "6 minutes total. 3 exercises, with 20 seconds of high knees every 2 minutes.",
+                "exercises": [
+                    {
+                        "name": "6 sumo squats with foot jack at top, 9 speed sprawls, 12 shoot throughs",
+                        "active": 120,
+                        "rest": 0
+                    },
+                    {
+                        "name": "high knees",
+                        "active": 20,
+                        "rest": 0
+                    },
+                    {
+                        "name": "6 sumo squats with foot jack at top, 9 speed sprawls, 12 shoot throughs",
+                        "active": 120,
+                        "rest": 0
+                    },
+                    {
+                        "name": "high knees",
+                        "active": 20,
+                        "rest": 0
+                    },
+                    {
+                        "name": "6 sumo squats with foot jack at top, 9 speed sprawls, 12 shoot throughs",
+                        "active": 120,
+                        "rest": 0
+                    }
+                ]
+            },
+            {
+                "type": "Finisher",
+                "sets": 6,
+                "rest": 0,
+                "notes": "EMOM",
+                "exercises": [
+                    {
+                        "name": "Ascending reps of squat jumps and burpees (5&5, 7&7, 9&9, ....)",
+                        "active": 60,
+                        "rest": 0,
+                        "notes": "Go until you can't complete them in the minute"
+                    }
+                ]
+            }
+        ]
+    }
+}
