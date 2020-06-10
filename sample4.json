@@ -1,0 +1,79 @@
+{
+    "workout": {
+        "name": "Salt Escapes 2020-03-26",
+        "description": "Upper body pod and lower body pod. 5 exercises each, 3 sets of exercise before moving on. 1 lap of pod.",
+        "tags": ["Cardio"],
+        "blocks": [
+          {
+            "type": "Circuit",
+            "laps": 1,
+            "sets": 3,
+            "post-circuit rest": 60,
+            "notes": "Lower body pod",
+            "exercises": [
+              {
+                "name": "static lunge pulse with jump switch (10 before switch)",
+                "active": 35,
+                "rest": 15
+              },
+              {
+                "name": "duck walk",
+                "active": 35,
+                "rest": 15,
+                "notes": "squat, hands behind head"
+              },
+              {
+                "name": "cross-body mountain climbers",
+                "active": 35,
+                "rest": 15
+              },
+              {
+                "name": "5 squat pulses, 1 squat jump",
+                "active": 35,
+                "rest": 15
+              },
+              {
+                "name": "reverse burpee",
+                "active": 35,
+                "rest": 15
+              }
+            ]
+          },
+           {
+            "type": "Circuit",
+            "laps": 1,
+            "sets": 3,
+            "post-circuit rest": 60,
+            "notes": "Upper body pod",
+            "exercises": [
+              {
+                "name": "tricep step-up",
+                "active": 35,
+                "rest": 15,
+                "notes": "one hand at a time, lift self up onto chair behind you"
+              },
+              {
+                "name": "push up, single arm reach at top",
+                "active": 35,
+                "rest": 15
+              },
+              {
+                "name": "commando plank with foot jack at top",
+                "active": 35,
+                "rest": 15
+              },
+              {
+                "name": "crunches",
+                "active": 35,
+                "rest": 15
+              },
+              {
+                "name": "superman with towel lat pull ",
+                "active": 35,
+                "rest": 15
+              }
+            ]
+          }
+        ]
+    }
+}

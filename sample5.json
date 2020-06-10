@@ -1,0 +1,89 @@
+{
+    "workout": {
+        "name": "Salt Escapes 2020-04-02",
+        "description": "3 pods with 3 exercises. 2 sets of each exercise, and 2 laps of pod.",
+        "tags": ["Cardio"],
+        "blocks": [
+          {
+            "type": "Circuit",
+            "laps": 2,
+            "sets": 2,
+            "post-circuit rest": 60,
+            "exercises": [
+              {
+                "name": "4 shuffles, 4 jump lunges",
+                "active": 30,
+                "rest": 10
+              },
+              {
+                "name": "side burpees",
+                "active": 30,
+                "rest": 10
+              },
+              {
+                "name": "fast feet, sprawl",
+                "active": 30,
+                "rest": 10
+              }
+            ]
+          },
+          {
+            "type": "Circuit",
+            "laps": 2,
+            "sets": 2,
+            "post-circuit rest": 60,
+            "exercises": [
+              {
+                "name": "wide mountain climbers",
+                "active": 30,
+                "rest": 10
+              },
+              {
+                "name": "push up jacks",
+                "active": 30,
+                "rest": 10
+              },
+              {
+                "name": "speed sprawls",
+                "active": 30,
+                "rest": 10
+              }
+            ]
+          },
+          {
+            "type": "Circuit",
+            "laps": 2,
+            "sets": 2,
+            "post-circuit rest": 60,
+            "exercises": [
+              {
+                "name": "shoot throughs",
+                "active": 30,
+                "rest": 10
+              },
+              {
+                "name": "side plank with reach",
+                "active": 30,
+                "rest": 10
+              },
+              {
+                "name": "toe touches",
+                "active": 30,
+                "rest": 10
+              }
+            ]
+          },
+          {
+            "type": "Un-timed block",
+            "sets": 1,
+            "rest": 0,
+            "exercises": [
+              {"name": "Ascending push-ups (2, 4, 6, ..., 20). In-between each set, do two forward/back bear crawls",
+                "active": Inf, // this block will not move on until you tap the screen or something
+                "rest": 0
+              }
+            ]
+          }
+        ]
+      }
+  }
