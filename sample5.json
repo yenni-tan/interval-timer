@@ -8,7 +8,7 @@
             "type": "Circuit",
             "laps": 2,
             "sets": 2,
-            "post-circuit rest": 60,
+            "post-circuit-rest": 60,
             "exercises": [
               {
                 "name": "4 shuffles, 4 jump lunges",
@@ -31,7 +31,7 @@
             "type": "Circuit",
             "laps": 2,
             "sets": 2,
-            "post-circuit rest": 60,
+            "post-circuit-rest": 60,
             "exercises": [
               {
                 "name": "wide mountain climbers",
@@ -54,7 +54,7 @@
             "type": "Circuit",
             "laps": 2,
             "sets": 2,
-            "post-circuit rest": 60,
+            "post-circuit-rest": 60,
             "exercises": [
               {
                 "name": "shoot throughs",

@@ -8,7 +8,7 @@
             "type": "Circuit",
             "laps": 1,
             "sets": 3,
-            "post-circuit rest": 60,
+            "post-circuit-rest": 60,
             "notes": "Lower body pod",
             "exercises": [
               {
@@ -43,7 +43,7 @@
             "type": "Circuit",
             "laps": 1,
             "sets": 3,
-            "post-circuit rest": 60,
+            "post-circuit-rest": 60,
             "notes": "Upper body pod",
             "exercises": [
               {

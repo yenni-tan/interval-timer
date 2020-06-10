@@ -22,7 +22,7 @@
             "sets": 1, // sets refers to how many times you do each exercise in a row
             // would it be possible to choose between setting all circuit exercises to the same active/rest time or setting the times manually for each?
             // cuz might be annoying to have to set all the times manually, but also we want to have that flexibility if need be
-            "post-circuit rest": 30,
+            "post-circuit-rest": 30,
             "exercises": [
               {
                 "name": "squat with dumbbell press",
@@ -40,7 +40,7 @@
             "type": "Circuit",
             "laps": 2,
             "sets": 1,
-            "post-circuit rest": 30,
+            "post-circuit-rest": 30,
             "exercises": [
               {
                 "name": "maneaters",
@@ -59,7 +59,7 @@
             "type": "Circuit",
             "laps": 2,
             "sets": 1,
-            "post-circuit rest": 30,
+            "post-circuit-rest": 30,
             "exercises": [
               {
                 "name": "ice skaters",
@@ -77,7 +77,7 @@
             "type": "Circuit",
             "laps": 2,
             "sets": 1,
-            "post-circuit rest": 30,
+            "post-circuit-rest": 30,
             "exercises": [
               {
                 "name": "ankle taps",
