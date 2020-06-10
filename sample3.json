@@ -1,0 +1,107 @@
+{
+    "workout": {
+        "name": "Salt Escapes 4/03/20",
+        "description": "Dynamic warm-up, 4 couplet sets (2 laps each), ascending reps finisher",
+        "tags": ["Strength and conditioning"],
+        "blocks": [
+          {
+            "type": "Un-timed block",
+            "sets": 1,
+            "rest": 0,
+            "notes": "Dynamic warm-up. Do 5 laps of the 3 exercises.",
+            "exercises": [
+              {"name": "20 shoulder taps in push-up position, 15 up-downs, 10 cossack squats",
+                "active": Inf, // this block will not move on until you tap the screen or something
+                "rest": 0
+              }
+            ]
+          },
+          {
+            "type": "Circuit",
+            "laps": 2, // laps refers to how many times you do the do the exercises loop
+            "sets": 1, // sets refers to how many times you do each exercise in a row
+            // would it be possible to choose between setting all circuit exercises to the same active/rest time or setting the times manually for each?
+            // cuz might be annoying to have to set all the times manually, but also we want to have that flexibility if need be
+            "post-circuit rest": 30,
+            "exercises": [
+              {
+                "name": "squat with dumbbell press",
+                "active": 45,
+                "rest": 15
+              },
+              {
+                "name": "jump lunges",
+                "active": 45,
+                "rest": 15
+              }
+            ]
+          },
+          {
+            "type": "Circuit",
+            "laps": 2,
+            "sets": 1,
+            "post-circuit rest": 30,
+            "exercises": [
+              {
+                "name": "maneaters",
+                "active": 45,
+                "rest": 15,
+                "notes": "push up, 2 shoulder taps, jump feet in, squat jump"
+              },
+              {
+                "name": "bent-over row with dumbbells",
+                "active": 45,
+                "rest": 15
+              }
+            ]
+          },
+          {
+            "type": "Circuit",
+            "laps": 2,
+            "sets": 1,
+            "post-circuit rest": 30,
+            "exercises": [
+              {
+                "name": "ice skaters",
+                "active": 45,
+                "rest": 15
+              },
+              {
+                "name": "squat pulse with dumbbell",
+                "active": 45,
+                "rest": 15
+              }
+            ]
+          },
+            {
+            "type": "Circuit",
+            "laps": 2,
+            "sets": 1,
+            "post-circuit rest": 30,
+            "exercises": [
+              {
+                "name": "ankle taps",
+                "active": 45,
+                "rest": 15
+              },
+              {
+                "name": "plank knee-to-elbow",
+                "active": 45,
+                "rest": 15
+              }
+            ]
+          },
+          {
+            "type": "Simple block",
+            "duration": 300,
+            "notes": "Finisher",
+            "exercises": [
+              {
+                "name": "squat jumps, butterfly sit-ups",
+                "notes": "Ascending reps (2&2, 4&4, 6&6, ...) for 5 minutes"
+              }
+            ]
+          }
+      ]
+      }
+  }

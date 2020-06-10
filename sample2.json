@@ -121,10 +121,10 @@
                 ]
             },
             {
-                "type": "Finisher",
+                "type": "EMOM",
                 "sets": 6,
                 "rest": 0,
-                "notes": "EMOM",
+                "notes": "Finisher",
                 "exercises": [
                     {
                         "name": "Ascending reps of squat jumps and burpees (5&5, 7&7, 9&9, ....)",
