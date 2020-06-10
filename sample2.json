@@ -5,15 +5,17 @@
         "tags": ["AMRAP", "EMOM", "Squats"],
         "blocks": [
             {
+                // I don't think we need this first circut, a 1 set circuit doesn't really do anything. 
                 "type": "Circuit",
                 "sets": 1,
-                "rest": 60,
+                "rest": 60, // This is the reason for having this, right? We need to have an option for 'post circuit rest'
                 "notes": "3 triplets. 2 laps of triplet before moving on.",
                 "exercises": [
                     {
                         "type": "Circuit",
                         "sets": 2,
                         "rest": 15,
+                        // post-circuit-rest: 60
                         "exercises": [
                             {
                                 "name": "tricep dips",
